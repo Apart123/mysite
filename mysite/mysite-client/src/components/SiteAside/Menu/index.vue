@@ -1,6 +1,6 @@
 <template>
   <nav class="menu-container">
-    <RouterLink
+    <RouterLink 
       :exact="item.exact"
       v-for="item in items"
       :key="item.link"
@@ -74,9 +74,12 @@ export default {
     display: block;
     display: flex;
     align-items: center;
-    height: 45px;
+    height: 40px;
     .icon {
-      width: 24px;
+      width: 26px;
+    }
+    span {
+      font-size: 14px;
     }
     &:hover {
       color: #fff;

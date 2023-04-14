@@ -39,11 +39,11 @@
         <template slot-scope="scope">{{ scope.row.scanNumber }}</template>
       </el-table-column>
 
-      <el-table-column prop="title" label="评论量" width="150" align="center">
+      <el-table-column prop="title" label="评论量" width="130" align="center">
         <template slot-scope="scope">{{ scope.row.commentNumber }}</template>
       </el-table-column>
 
-      <el-table-column prop="title" label="所属分类" width="150" align="center">
+      <el-table-column prop="title" label="所属分类" width="130" align="center">
         <template slot-scope="scope">{{ 
           scope.row.category === null ? '未分类' : scope.row.category.name
         }}</template>

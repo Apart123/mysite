@@ -163,7 +163,7 @@ li {
     margin-right: 15px;
     img {
       display: block;
-      max-width: 200px;
+      max-width: 120px;
       border-radius: 5px;
     }
   }

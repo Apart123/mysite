@@ -79,7 +79,7 @@ export default {
     cursor: pointer;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
   }
   .icon {
     font-size: 26px;

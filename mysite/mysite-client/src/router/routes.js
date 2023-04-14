@@ -27,6 +27,7 @@ function getPageComponent(pageCompResolver) {
   };
 }
 
+// 路由匹配规则
 export default [
   {
     name: "Home",

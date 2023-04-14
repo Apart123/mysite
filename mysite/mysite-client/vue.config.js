@@ -1,6 +1,7 @@
 // vue-cli的配置文件
 module.exports = {
   devServer: {
+    // 代理
     proxy: {
       "/api": {
         // target: "http://test.my-site.com",
